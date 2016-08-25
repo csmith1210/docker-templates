@@ -11,18 +11,18 @@
   <Overview>
   Homebridge is a lightweight NodeJS server you can run on your home network that emulates the iOS HomeKit API. It supports Plugins, which are community-contributed modules that provide a basic bridge from HomeKit to various 3rd-party APIs provided by manufacturers of "smart home" devices.
   </Overview>
-  <Support>https://github.com/ckuburlis/homebridge-docker</Support>
-  <Registry>https://registry.hub.docker.com/u/ckuburlis/homebridge-docker/</Registry>
-  <GitHub>https://github.com/ckuburlis/homebridge-docker</GitHub>
-  <Repository>ckuburlis/homebridge-docker</Repository>
+  <Support>https://github.com/Adair21/homebridge-docker</Support>
+  <Registry>https://registry.hub.docker.com/u/Adair21/homebridge-docker/</Registry>
+  <GitHub>https://github.com/Adair21/homebridge-docker</GitHub>
+  <Repository>Adair21/homebridge-docker</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
     <Networking>
     <Mode>host</Mode>
-    <Publish>	  	  
+    <Publish>
     </Publish>
   </Networking>
-  <Environment></Environment>    
+  <Environment></Environment>
   <Data>
     <Volume>
       <HostDir>/mnt/cache/appdata/homebridge</HostDir>
@@ -32,5 +32,5 @@
   </Data>
   <WebUI></WebUI>
   <Banner></Banner>
-  <Icon>https://raw.githubusercontent.com/ckuburlis/docker-templates/master/ckuburlis/images/homekit-icon.png</Icon>
+  <Icon>https://raw.githubusercontent.com/Adair21/docker-templates/master/Adair21/images/homekit-icon.png</Icon>
 </Containers>
