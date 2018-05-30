@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Beta>False</Beta>
+<Category>Tools:</Category>
+  <Name>SpeedTest</Name>
+  <Description>
+  Uses taganaka/SpeedTest script to test fiber internet speeds. Change or remove server in Dockerfile to your needs.  </Description>
+  <Overview>
+  Uses taganaka/SpeedTest script to test fiber internet speeds. Change or remove server in Dockerfile to your needs
+  </Overview>
+  <Support>https://github.com/csmith1210/speedtest-docker</Support>
+  <Registry>https://registry.hub.docker.com/u/csmith1210/speedtest-docker/</Registry>
+  <GitHub>https://github.com/csmith1210/speedtest-docker</GitHub>
+  <Repository>csmith1210/speedtest-docker</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking></Networking>
+  <Environment></Environment>
+  <Data></Data>
+  <WebUI></WebUI>
+  <Banner></Banner>
+  <Icon>https://raw.githubusercontent.com/csmith1210/docker-templates/master/csmith1210/images/speedtest-icon.png</Icon>
+</Containers>
