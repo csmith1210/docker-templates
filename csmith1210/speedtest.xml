@@ -14,7 +14,9 @@
   <Repository>csmith1210/speedtest-docker</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
-  <Networking></Networking>
+  <Networking>
+    <Mode>host</Mode>
+  </Networking>
   <Environment></Environment>
   <Data></Data>
   <WebUI></WebUI>
