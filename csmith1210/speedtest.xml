@@ -7,7 +7,7 @@
     [br][br]
     [b]SHORT_OUTPUT[/b] - set to true to enable the script to output only essential info[br]
     [b]SHARE[/b] - set to true to output the share image URL from speedtest.net[br]
-    [b]SERVER[/b] - set to a specific server you want to test every time - see http://c.speedtest.net/speedtest-servers-static.php[br]
+    [b]SERVER[/b] - set to a specific server you want to test every time, or leave blank, see http://c.speedtest.net/speedtest-servers-static.php for a list[br]
   </Description>
   <Overview>
   Uses taganaka/SpeedTest script to test fiber internet speeds. Change or remove server in Dockerfile to your needs
