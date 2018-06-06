@@ -3,8 +3,12 @@
 <Beta>False</Beta>
 <Category>Tools:</Category>
   <Name>SpeedTest</Name>
-  <Description>
-  Uses taganaka/SpeedTest script to test fiber internet speeds. Change or remove server in Dockerfile to your needs.  </Description>
+  <Description>Uses taganaka/SpeedTest script to test fiber internet speeds. 
+    [br][br]
+    [b]SHORT_OUTPUT[/b] - set to true to enable the script to output only essential info[br]
+    [b]SHARE[/b] - set to true to output the share image URL from speedtest.net[br]
+    [b]SERVER[/b] - set to a specific server you want to test every time - see http://c.speedtest.net/speedtest-servers-static.php[br]
+  </Description>
   <Overview>
   Uses taganaka/SpeedTest script to test fiber internet speeds. Change or remove server in Dockerfile to your needs
   </Overview>
@@ -17,7 +21,20 @@
   <Networking>
     <Mode>host</Mode>
   </Networking>
-  <Environment></Environment>
+  <Environment>
+    <Variable>
+      <Name>SHORT_OUTPUT</Name>
+      <Value>true</Value>
+    </Variable>
+    <Variable>
+      <Name>SHARE</Name>
+      <Value>true</Value>
+    </Variable>
+    <Variable>
+      <Name>SERVER</Name>
+      <Value>ohcn.OST.myvzw.com:8080</Value>
+    </Variable>
+  </Environment>
   <Data></Data>
   <WebUI></WebUI>
   <Banner></Banner>
